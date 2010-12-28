@@ -11,4 +11,3 @@ Feature: Can view the poll result
 	  	When I click on poll question
 	  	Then I see the comments by the user on their vote.
                 And the tick marked against the bar for the option I voted for. 
-��������������������������������������������������������������������������������������������������
