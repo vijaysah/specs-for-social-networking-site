@@ -31,6 +31,6 @@ Feature: As a user creates a Blog.
 		When I click on "Create A Blog"
 		Then I see the "Name Your Blog" form
 		When I fill in "My First Blog" in "Blog Title"
-		
-
-	
+		When I fill in "My First Blog" in "Blog Title", "myfirstblog" in Blog address(URL)
+		Then "Continue" button is in disable state
+                And flash an error message that "Blog name already exist"
