@@ -13,13 +13,3 @@ Feature: As a User Post the message.
 		When i type the whitespace in the message box
 		And I click "Post"
 		Then see the error message insert text.
-
-
-
-
-
-
-		
-
-
-	
